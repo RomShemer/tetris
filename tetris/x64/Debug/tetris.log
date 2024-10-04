@@ -1,0 +1,22 @@
+﻿  board.cpp
+C:\Users\User\source\repos\שנה ב\סמסטר א\מטלות\מטלה 2 הגשה\ex1\tetris\board.cpp(545,9): warning C4101: 'y': unreferenced local variable
+C:\Users\User\source\repos\שנה ב\סמסטר א\מטלות\מטלה 2 הגשה\ex1\tetris\board.cpp(545,6): warning C4101: 'x': unreferenced local variable
+  computerPlayer.cpp
+  gameConfig.cpp
+  humanPlayer.cpp
+  menu.cpp
+  tetromino.cpp
+  general.cpp
+  main.cpp
+C:\Users\User\source\repos\שנה ב\סמסטר א\מטלות\מטלה 2 הגשה\ex1\tetris\main.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\User\source\repos\שנה ב\סמסטר א\מטלות\מטלה 2 הגשה\ex1\tetris\main.cpp(19,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\User\source\repos\שנה ב\סמסטר א\מטלות\מטלה 2 הגשה\ex1\tetris\main.cpp(20,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  player.cpp
+  point.cpp
+  twoPlayersGame.cpp
+C:\Users\User\source\repos\שנה ב\סמסטר א\מטלות\מטלה 2 הגשה\ex1\tetris\twoPlayersGame.cpp(582,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+C:\Users\User\source\repos\שנה ב\סמסטר א\מטלות\מטלה 2 הגשה\ex1\tetris\twoPlayersGame.cpp(397,1): warning C4715: 'TwoPlayersGame::IsLeftPlayerKeyPressed': not all control paths return a value
+C:\Users\User\source\repos\שנה ב\סמסטר א\מטלות\מטלה 2 הגשה\ex1\tetris\twoPlayersGame.cpp(407,1): warning C4715: 'TwoPlayersGame::IsRightPlayerKeyPressed': not all control paths return a value
+C:\Users\User\source\repos\שנה ב\סמסטר א\מטלות\מטלה 2 הגשה\ex1\tetris\board.cpp(88,1): warning C4715: 'Board::isValidMove': not all control paths return a value
+  tetris.vcxproj -> C:\Users\User\source\repos\שנה ב\סמסטר א\מטלות\מטלה 2 הגשה\ex1\x64\Debug\tetris.exe
