@@ -1,64 +1,99 @@
+# 🎮 Two-Player Console Tetris (C++)
 
-Overview
-This project implements a console-based Tetris game for two players, with support for additional features such as bombs, AI opponents, and color modes.
+A classic **console-based Tetris game** written in **C++**, supporting **two players**, **AI opponents**, **bomb mechanics**, and **optional color modes**.  
+Built as part of a structured programming exercise, with clean separation of game logic, input handling, and rendering.
 
-Features
-Exercise 1: Basic Tetris Game
-Two Players: Each player controls their own board (18x12 squares).
+---
 
-Controls: Players use specific keys to move, rotate, and drop the falling shapes.
+## 📽️ Gameplay Demo
 
-Game End: The game ends when one player�s board reaches the top. The other player wins.
+https://github.com/user-attachments/assets/12468237-2b19-4692-8bb9-8b999fdde212
 
-Menu Options:
+---
 
-Start a new game
-Continue a paused game (if a game is paused)
-View instructions and keys
-Exit
+## ✨ Features
 
-Bonus Features:
-Optional colors (toggle via menu).
-Optional score tracking (used in case of a tie).
+### 🧩 Exercise 1 – Core Game
+- **Two Players**  
+  Each player controls their own board (**18x12** grid).
 
-Exercise 2: Additional Features
-Bombs: A bomb block has a 5% chance to appear. When it lands, it clears a 4x4 square radius around it.
-AI Opponent: You can play against a computer with 3 difficulty levels: Best, Good, Novice.
+- **Independent Controls**  
+  Each player has a dedicated key set for movement, rotation, and drop.
 
-New Menu Options:
-Start a new game - Human vs. Human
-Start a new game - Human vs. Computer
-Start a new game - Computer vs. Computer
-Continue paused game
-View instructions and keys
-Exit
+- **Win Condition**  
+  The game ends when one player's board reaches the top.  
+  The opponent is declared the winner.
 
-System Requirements
-Operating System: Windows
-Development Environment: Visual Studio 2019 or later (e.g., VS 2021)
-Console Screen Size: 80x25
-Standard C++ Libraries
+- **Game Menu**
+  - Start a new game
+  - Continue a paused game
+  - View instructions & controls
+  - Exit
 
-Controls
+---
 
-Left Player (A):
-Move Left: a or A
-Move Right: d or D
-Rotate Clockwise: s or S
-Rotate Counterclockwise: w or W
-Drop: x or X
+### 🎁 Bonus Features
+- 🎨 **Optional Color Mode** (toggle from menu)
+- 🧮 **Optional Score Tracking** (used to resolve ties)
 
-Right Player (B):
-Move Left: j or J
-Move Right: l or L
-Rotate Clockwise: k or K
-Rotate Counterclockwise: i or I
-Drop: m or M
+---
 
-Pausing the Game:
-Press ESC to pause the game and return to the main menu.
+### 🚀 Exercise 2 – Advanced Features
+- 💣 **Bomb Blocks**
+  - 5% chance to spawn
+  - Clears a **4×4 area** upon landing
 
-Additional Notes
-The game uses gotoxy for positioning text on the console and _kbhit and _getch for non-blocking input.
-For colors, SetConsoleTextAttribute is used (if the option is enabled).
-No compiled binaries are included in the repository.
+- 🤖 **AI Opponent**
+  - Three difficulty levels:
+    - **Best**
+    - **Good**
+    - **Novice**
+
+- 🧭 **Extended Game Modes**
+  - Human vs. Human
+  - Human vs. Computer
+  - Computer vs. Computer
+
+---
+
+## 🖥️ System Requirements
+
+| Requirement | Details |
+|------------|--------|
+| Operating System | Windows |
+| Compiler / IDE | Visual Studio 2019+ (recommended: VS 2021) |
+| Console Size | 80 × 25 |
+| Language | C++ |
+| Libraries | Standard C++ + Windows Console API |
+
+---
+## 🎮 Controls
+
+| Action | Left Player (A) | Right Player (B) |
+|--------|-----------------|------------------|
+| Move Left | **A** | **J** |
+| Move Right | **D** | **L** |
+| Rotate Clockwise | **S** | **K** |
+| Rotate Counterclockwise | **W** | **I** |
+| Drop | **X** | **M** |
+
+---
+
+### ⏸️ Pause Game
+- Press **ESC** to pause and return to the main menu.
+
+---
+
+## 🛠️ Technical Notes
+- Uses `gotoxy` for precise console rendering.
+- Non-blocking input handled with `_kbhit()` and `_getch()`.
+- Color support implemented via `SetConsoleTextAttribute`.
+- No precompiled binaries included — build directly from source.
+
+---
+
+## 📌 Project Highlights
+✔ Two-player real-time console gameplay  
+✔ Modular and readable C++ code  
+✔ AI logic with adjustable difficulty  
+✔ Clean console UI with optional colors  
